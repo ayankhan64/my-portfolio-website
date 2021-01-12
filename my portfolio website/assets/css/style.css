@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/*================ google font=============*/
+
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*============== basic setup end==========*/
+
+
+.custom-shape-divider-bottom-1610346876 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1610346876 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 121px;
+}
+
+.custom-shape-divider-bottom-1610346876 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.contack-btn a {
+    color: white;
+    background: #3dcfd3;
+    padding: 6px 37px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    transition: .7s;
+}
+
+.contack-btn a:hover {
+    border: 2px solid #38cfd3;
+    color: #38cfd3;
+    text-transform: uppercase;
+    border-radius: 2px;
+    position: relative;
+    background: none;
+}
+
+li.nav-item {
+    margin-right: 20px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3 {
+    background: #161616e0;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 15px;
+}
+
+a.navbar-brand {
+    font-size: 26px;
+    color: #fff !important;
+    font-weight: 600
+}
+
+.inner-right-image img {
+    width: 60%;
+}
+
+.name-section span {
+    color: #3dcfd3;
+    font-size: 30px;
+}
+
+.name-section h4 {
+    color: #38cfd3;
+    font-size: 25px;
+}
+
+.name-section h2 {
+    font-size: 41px;
+    color: white;
+}
+
+.name-section {
+    margin-bottom: 24px;
+}
+
+.some-describe {
+    margin-bottom: 40px;
+}
+
+.some-describe p {
+    color: #ffffff99;
+    line-height: 29px;
+    font-size: 17px;
+
+}
+
+.download-cv-btn a {
+    border: 2px solid #38cfd3;
+    color: #38cfd3;
+    padding: 8px 26px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    
+}
+download-cv-btn {
+    position: relative;
+}
+span.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #3dcfd3;
+    width:0%;
+    height: 100%;
+     z-index: -1;
+}
+
+.download-cv-btn a:hover {
+    color: white;
+    transition: .7s;
+    
+}
+
+.download-cv-btn a:hover .overlay {
+    width: 100%;
+    transition: .7s;
+   
+}
+
+.inner-right-image {
+    text-align: center;
+}
+
+.inner-left-content {
+    padding: 69px 0px 20px 50px;
+}
+
+#banner {
+    background: #161616;
+    padding-top: 72px;
+    position: relative;
+}
+
+/*================ about style===============*/
+section#about {
+    padding: 80px 0px;
+}
+
+span.color {
+    color: #3dcfd3;
+}
+
+.about-img img {
+    width: 92%;
+}
+
+.about-img {
+    position: relative;
+}
+
+.border-shape {
+    position: absolute;
+    left: 176px;
+    top: -23px;
+    width: 64%;
+    height: 114%;
+    border: 3px solid #3dcfd3;
+    z-index: -1;
+}
+
+.social-icon a {
+    color: white;
+    background: #161616;
+    padding: 6px 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+    position: relative;
+}
+
+.social-icon a:hover {
+    background: none;
+}
+
+.social-icon a:hover .overlay {
+    width: 100%;
+    transition: .7s;
+    border-radius: 100%;
+}
+
+.content-about {
+    margin-bottom: 35px;
+    margin-top: 29px;
+}
+
+.content-about p {
+    font-size: 17px;
+    color: #000000a1;
+    padding-right: 26px;
+}
+
+.about-name h3 {
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+/*=============services style==============*/
+.col-8.m-auto.service-title {
+    text-align: center;
+}
+
+section#service {
+    padding: 70px 0px;
+}
+
+.col-8.m-auto.service-title h2 {
+    font-size: 41px;
+    font-weight: 700;
+}
+
+.col-8.m-auto.service-title p {
+    font-size: 22px;
+}
+
+.service-item {
+    text-align: center;
+    padding: 18px 14px;
+    position: relative;
+    height: 220px;
+    transition: .8s;
+}
+
+.service-item:hover {
+    background: #323232;
+}
+
+.service-item:hover h3 {
+    color: #fff;
+}
+
+.service-item:hover p {
+    color: rgba(255, 255, 255, 0.94);
+}
+
+.service-icon a {
+    font-size: 32px;
+    color: #171616;
+    background: #3dcfd3;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+.service-content h3 {
+    color: #032E42;
+    font-size: 28px;
+}
+
+.service-content p {
+    font-size: 18px;
+    color: #000000bf;
+}
+
+.service-icon {
+    position: absolute;
+    top: -24px;
+    left: 42%;
+}
+
+.service-content {
+    padding-top: 31px;
+}
+
+/*==============counter section========*/
+.counter-section {
+    text-align: center;
+    color: #fff;
+}
+
+.counter-section h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.counter-section p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+section#counter-up {
+    background: #3dcfd3;
+    padding: 40px 0px;
+}
+
+/*============skill style============*/
+section#skill {
+    padding: 80px 0px;
+}
+
+.skill-image img {
+    width: 100%;
+    height: auto;
+}
+
+.barfiller {
+    width: 100%;
+    height: 12px;
+    background: #e6e6e6;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+    border-radius: 4px;
+}
+
+.skils-title h3 {
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+
+.skill-name h3 {
+    font-size: 19px;
+}
+
+/*===================contack details=========*/
+section#contack-addres {
+    padding: 30px 0px;
+    text-align: center;
+    border-bottom: 2px solid #3dcfd3;
+}
+
+.email-section h3 {
+    font-size: 22px;
+}
+
+.email-section h3 span a {
+    color: #3dcfd3;
+    font-weight: 500;
+}
+
+.email-section span {
+    font-weight: bold;
+}
+
+.number h3 {
+    font-size: 22px;
+}
+
+.number h3 span a {
+    color: #3dcfd3;
+    font-weight: 500;
+}
+
+.number span {
+    font-weight: bold;
+}
+
+.addres h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+/*============contack==========*/
+section#contack {
+    padding: 50px 0px;
+}
+
+.col-7.m-auto.contack-title {
+    text-align: center;
+}
+
+.col-7.m-auto.contack-title h2 {
+    font-size: 41px;
+    font-weight: 700;
+}
+
+input[type="email"] {
+    width: 98% !important;
+}
+
+.col-7.m-auto.contack-title p {
+    font-size: 18px;
+}
+
+.contack-sectioin input {
+    width: 48%;
+    padding: 10px;
+    margin-right: 3px;
+    border: 2px solid #ddd;
+    margin-bottom: 19px;
+    border-radius: 3px;
+    outline: none;
+}
+
+textarea#text-area {
+    width: 98%;
+    padding: 30px 10px;
+    border: 2px solid #c4cbcc;
+    border-radius: 3px;
+    outline: none;
+}
+
+.submit-btn a {
+    color: white;
+    background: #3dcfd3;
+    padding: 9px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+
+}
+
+.submit-btn {
+    margin-top: 30px;
+}
+
+.map-section img {
+    width: 100%;
+}
+
+/*====================footer====*/
+.reserved-section {
+    text-align: center;
+}
+
+footer#footer {
+    padding: 7px 0px;
+    background: #3dcfd3;
+}
+
+.reserved-section h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
